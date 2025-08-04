@@ -1,57 +1,56 @@
 📊 Real-Time Data Cleaning & Preprocessing Project
 This project focuses on real-time data handling and preprocessing tasks using Python and Excel. The objective is to clean raw datasets by identifying and fixing common data quality issues to prepare them for further analysis or modeling.
 
+
 🚀 Project Goals
-Understand and apply standard data preprocessing techniques.
+1 Understand and apply standard data preprocessing techniques.
 
-Clean and structure multiple real-world datasets from Kaggle.
+2 Clean and structure multiple real-world datasets from Kaggle.
 
-Practice using tools like Pandas in Python and Excel for data wrangling.
+3 Practice using tools like Pandas in Python and Excel for data wrangling.
+
 
 📂 Tasks Performed
 The following preprocessing steps were performed consistently across datasets:
 
-Missing Values Handling
+1.Missing Values Handling
 
-Identified using .isnull() in Python or filters in Excel.
+2.Identified using .isnull() in Python or filters in Excel.
 
-Handled with appropriate imputation or removal techniques.
+3.Handled with appropriate imputation or removal techniques.
 
-Duplicate Removal
+4.Duplicate Removal
 
-Removed duplicate rows using .drop_duplicates() in Python or Excel’s "Remove Duplicates" function.
+5.Removed duplicate rows using .drop_duplicates() in Python or Excel’s "Remove Duplicates" function.
 
-Text Standardization
+6.Text Standardization
 
-Normalized categorical variables like gender, country names, etc.
+7.Normalized categorical variables like gender, country names, etc.
 
-Date Formatting
+8.Date Formatting
 
-Unified all date formats into dd-mm-yyyy for consistency.
+9.Unified all date formats into dd-mm-yyyy for consistency.
 
-Column Renaming
+10.Data Type Fixes
 
-Cleaned and renamed headers to be lowercase and space-free for uniformity.
-
-Data Type Fixes
-
-Ensured proper data types for each column (e.g., int for age, datetime for dates).
+11.Ensured proper data types for each column (e.g., int for age, datetime for dates).
 
 📁 Datasets Used
 The following datasets from Kaggle were used for hands-on cleaning practice:
 
-Customer Personality Analysis
+#Customer Personality Analysis
 
-Medical Appointment No Shows
+#Medical Appointment No Shows
 
-Mall Customer Segmentation Data
+#Mall Customer Segmentation Data
 
-Netflix Movies and TV Shows
+#Netflix Movies and TV Shows
 
-Sales Data
+#Sales Data
 
 🛠 Tools & Technologies
-Python (Pandas, NumPy)
 
-Jupyter Notebook
+@Python (Pandas, NumPy)
+
+@Jupyter Notebook
 
