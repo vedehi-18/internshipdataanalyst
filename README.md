@@ -1,56 +1,53 @@
-📊 Real-Time Data Cleaning & Preprocessing Project
-This project focuses on real-time data handling and preprocessing tasks using Python and Excel. The objective is to clean raw datasets by identifying and fixing common data quality issues to prepare them for further analysis or modeling.
+# Overview
+This project blends the interactive visual power of Power BI with the robust data manipulation capabilities of Python to provide comprehensive data cleaning and visualization solutions.
+
+# Core Components:
+
+Python (via Jupyter Notebook or .py scripts): Performs data preprocessing, cleaning, and manipulation using powerful libraries like pandas and NumPy.
+
+Power BI: Enables interactive, dynamic dashboards and visualizations built upon the cleaned datasets.
 
 
-🚀 Project Goals
-1 Understand and apply standard data preprocessing techniques.
+internshipdataanalyst/
+├── README.md                ← This documentation
+├── ... .py scripts          ← Python files for data cleaning (e.g., movie.py, sales.py, task*.py)
+├── ... .ipynb notebooks     ← Jupyter workbooks for explorative cleaning (e.g., test.ipynb)
+├── ... .pdf assignments     ← Specifications or documents (e.g., assignment.pdf, task8.pdf)
+└── README (Project-specific) ← Real-Time Data Cleaning & Preprocessing Project (existing)
 
-2 Clean and structure multiple real-world datasets from Kaggle.
 
-3 Practice using tools like Pandas in Python and Excel for data wrangling.
+# Project Workflow
 
+// Load & Explore Data
 
-📂 Tasks Performed
-The following preprocessing steps were performed consistently across datasets:
+1.Use Python to import datasets (CSV, Excel, etc.)
 
-1.Missing Values Handling
+2.Inspect data using .head(), .info(), .describe()
 
-2.Identified using .isnull() in Python or filters in Excel.
+3. Identify issues like missing values, inconsistent formatting, duplicates.
 
-3.Handled with appropriate imputation or removal techniques.
+4.Clean & Transform
 
-4.Duplicate Removal
+5.Handle missing data through imputation or removal
 
-5.Removed duplicate rows using .drop_duplicates() in Python or Excel’s "Remove Duplicates" function.
+6.Standardize text fields (e.g., country names, categories)
 
-6.Text Standardization
+7.Convert dates to consistent formats (e.g., dd-mm-yyyy)
 
-7.Normalized categorical variables like gender, country names, etc.
+8.Enforce correct data types (e.g., int, datetime)
 
-8.Date Formatting
+9.Remove duplicates via .drop_duplicates()
 
-9.Unified all date formats into dd-mm-yyyy for consistency.
+10.Split or restructure columns where needed (e.g., names or combined fields).
 
-10.Data Type Fixes
+11.Export Cleaned Data
 
-11.Ensured proper data types for each column (e.g., int for age, datetime for dates).
+12.Save cleaned data as CSV or Excel for use in Power BI
 
-📁 Datasets Used
-The following datasets from Kaggle were used for hands-on cleaning practice:
+13.Visualize in Power BI
 
-#Customer Personality Analysis
+14.Import cleaned datasets via Power Query
 
-#Medical Appointment No Shows
+15.Apply additional Power Query transformations if needed
 
-#Mall Customer Segmentation Data
-
-#Netflix Movies and TV Shows
-
-#Sales Data
-
-🛠 Tools & Technologies
-
-@Python (Pandas, NumPy)
-
-@Jupyter Notebook
-
+# Note: Python visuals in Power BI are static images and may incur performance overhead due to data serialization
